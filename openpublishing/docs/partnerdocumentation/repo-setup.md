@@ -18,7 +18,7 @@ After GIT repo is created, VSC will configure it to be monitored by open publish
 ### Adding the docset to the Open Publishing  ###
 **VSC will do this step**
 
-Under an Open Publishing GIT repository there will be multiple docsets. A docset is a group of documents that share the same configuration like template, base url, etc. (similar to center in current OA). Each docset is a folder, under which there is a docset.json that defines the basic properties of a docset.
+Under an Open Publishing GIT repository there will be multiple docsets. A docset is a group of documents that share the same configuration like template, base url, etc. (similar to center in current OA). Each docset is a folder, under which there is a .openpublish.build.docset.json that defines the basic properties of a docset.
 
 Under the root folder of a repository, there is a **siteCatalog.json** that defines all docsets in this repo.
 
@@ -66,7 +66,7 @@ Once this file has been committed, if there is a new language added under locale
 ## Configure the repo ##
 Here is the repo configuration you need to do after setting up and provisioning the repo.
 
-### Repo.json ###
+### .openpublish.build.config.json ###
 This file defines some basic properties for the full repo.
 
 - **docset_files** - Defines the path for the docset.json file. Example: *openpublishing/corefx/Docset.json*
@@ -79,7 +79,7 @@ This file defines some basic properties for the full repo.
 		- Set to false if you want to do manual builds.
 	- **notification_subscribers** - Add the full mail alias of the user or Distribution List that should receive mail notifications. For example "OPBuild@microsoft.com" 
 
-### Docset.json ###
+### .openpublish.build.docset.json ###
 This file defines the basic properties of a docset.
 
 - **docset_name** - Provide the name of the docset. This would be part of the URL.
