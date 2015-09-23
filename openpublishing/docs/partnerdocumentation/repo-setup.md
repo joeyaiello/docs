@@ -24,27 +24,6 @@ Under the root folder of a repository, there is a **siteCatalog.json** that defi
 
 A docset must be added to siteCatalog.json to be detected by open publishing. Docset must be added to the monitor list manually, open publishing won't monitor docset creation/deletion and automatically provision them.
 
-Here is a diagram that illustrates the structure of an open publishing GIT repo.
-
-/
-
-|- siteCatalog.json
-
-|- docset1/
-
-|  |- docset.json
-
-|  |- a.md
-
-|  \- b.md
-
-\- docset2/
-
-   |- docset.json
-
-   |- c.md
-
-   \- d.md
 
 ### Creating and setting up localized repos ###
 The localized content will live in a separated repo, connected to the English one. 
@@ -67,17 +46,7 @@ Once this file has been committed, if there is a new language added under locale
 Here is the repo configuration you need to do after setting up and provisioning the repo.
 
 ### .openpublish.build.config.json ###
-This file defines some basic properties for the full repo.
-
-- **docset_files** - Defines the path for the docset.json file. Example: *openpublishing/corefx/Docset.json*
-- **build_config** - Build configurations
-	- **incremental**
-		- Set to true if you want to build only the files that have changed. 
-		- Set to false to build the full docset each time.
-	- **force_build** 
-		- Set to true if you want the build automatically triggered once the content is added to the branch.
-		- Set to false if you want to do manual builds.
-	- **notification_subscribers** - Add the full mail alias of the user or Distribution List that should receive mail notifications. For example "OPBuild@microsoft.com" 
+This file defines the paths for the different configuration files.
 
 ### .openpublish.build.docset.json ###
 This file defines the basic properties of a docset.
