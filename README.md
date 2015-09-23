@@ -22,7 +22,7 @@ Start contributing to Open Publishing docs using the following steps:
    ```
 
 4. Wait for a moment and your changes will be automatically published to:
-https://msdnopint.redmond.corp.microsoft.com/en-us/openpublishing/docs/open_publish_design
+https://int.msdn.microsoft.com/en-us/openpublishing/docs/introduction
 
 > If you don't have the permission to push to this repo, fork it to your own account and use pull request to submit your changes back.
 
