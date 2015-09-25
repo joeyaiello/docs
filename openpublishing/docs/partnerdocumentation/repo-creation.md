@@ -46,10 +46,10 @@ As Open Publishing offers local preview, you can always pull changes from the pu
 The following two images show a graphical view of the recommended workflow. Note this is only added here for your reference. Original images were taken from Azure GitHub training from Tyson Nevil.
 
 Internal contributions only workflow
-![Internal created content](images/GitHub_InternalWorkflow.png)
+![Internal created content](../images/GitHub_InternalWorkflow.png)
 
 External contributions workflow
-![Internal created content](images/GitHub_ExternalWorkflow.png)
+![Internal created content](../images/GitHub_ExternalWorkflow.png)
 
 ## Set up permissions to the GIT repo
 For permission to access the content repo, the content owner is responsible for leveraging GITHUB permission system, and give certain people read or write permission to the repo. Our recommendation is you create an org and host the repo under that org, then add people to that org to give them write permission.

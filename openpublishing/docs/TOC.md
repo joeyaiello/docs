@@ -1,5 +1,6 @@
 # [Open Publishing Introduction](introduction.md)
 # [Connect](connect.md)
+## [Try Button](try.md)
 ## [Partner onboarding steps](partneronboarding/Onboarding-steps.md)
 ## [GFM and Markdown extensions](partnerdocumentation/GFM-and-extensions.md)
 ## [Creating the GIT repo](partnerdocumentation/repo-creation.md)
