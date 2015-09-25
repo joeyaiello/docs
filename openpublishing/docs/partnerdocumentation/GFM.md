@@ -1,4 +1,4 @@
-## GitHub-flavored Markdown, Extensions, and HTML code
+# GitHub-flavored Markdown, Extensions, and HTML code
 
 ## GitHub-flavored Markdown (GFM) ##
 Open Publishing supports authoring topics in GitHub-flavored Markdown (GFM)

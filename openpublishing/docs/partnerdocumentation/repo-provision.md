@@ -1,8 +1,8 @@
-## Repo provisioning ##
+# Repo provisioning #
 After all the following steps are completed, for all changes in a monitored docset, open publishing will automatically build it and publish the content to MSDN, TechNet, or VS.com web site.
 
 
-### Making the repo an Open Publishing repo ###
+## Making the repo an Open Publishing repo ##
 After GIT repo is created, VSC will configure it to be monitored by open publishing. Eventually, we will extend the provisioning rights to other users in the content teams. 
 
 ### Adding the docset to the Open Publishing  ###
@@ -14,8 +14,7 @@ Under the root folder of a repository, there is a **siteCatalog.json** that defi
 
 A docset must be added to siteCatalog.json to be detected by open publishing. Docset must be added to the monitor list manually, open publishing won't monitor docset creation/deletion and automatically provision them.
 
-
-### Creating and setting up localized repos ###
+## Creating and setting up localized repos ##
 The localized content will live in a separated repo, connected to the English one. 
 
 For that, you need to modify the file **.localization-config**.This file contains the definition of the localized repos.
@@ -31,8 +30,7 @@ For that, you need to modify the file **.localization-config**.This file contain
 
 Once this file has been committed, if there is a new language added under locales, the localized repo will be created automatically.
 
-
-## Configure the repo ##
+## Configuring the repo ##
 Here is the repo configuration you need to do after setting up and provisioning the repo.
 
 ### .openpublish.build.config.json ###
