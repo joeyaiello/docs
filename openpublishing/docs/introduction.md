@@ -18,7 +18,6 @@ The end result is that we have a lot of fragmentation in processes, tools and en
 
 On the other side, many content publishing scenarios and requirements are the same. 
 ![Commonality](images/Commonalities.png)
-![Commonality](images/Commonalities.png)
 
 Although different teams may have different workflows, if we can open up the content pipeline piece by piece, they can still share those essential common blocks. By enabling open publishing services, there would be several key benefits
 - Decoupling of content creation and distribution
@@ -47,21 +46,21 @@ Available and accessible for all
 - Externally - open to third party community for contribution
 
 Different types of documentation
-- Conctptual content for getting started, tutorials, etc.
+- Concetptual content for getting started, tutorials, etc.
 - Reference content for API
 
-Multiple toolchains
+Multiple tool chains
 - CAPS
 - Git, including GitHub and VSO
 
-Multipe hosting environments
+Multiple hosting environments
 - MSDN
 - Custom domain support
 
 Content management as a service
 - Self-managed, flexible content workflow, from provisioning, authoring, staging, reviewing to publishing
 - Integrated localization service, get your content localized and published easily
-- Connected BI service, established feedback loop and customizable analytics from content creator to consumers (comming soon)
+- Connected BI service, established feedback loop and customizable analytics from content creator to consumers (coming soon)
 - Consistent SEO approach
 
 3. Service Architecture
@@ -70,4 +69,4 @@ Content management as a service
 
 4. Roadmap
 ----------
-![Service Architecture](images/Roadmap.png)
+Please look at our [TFS feature request list](https://mseng.visualstudio.com/DefaultCollection/VSChina/_workitems#path=Shared+Queries%2FVSOpenPublishing%2FOpen+Publishing+-+Feature+list&_a=query) for up to date information: 

@@ -12,10 +12,10 @@ We can have several cases of onboarding into Open Publishing:
 The following is a list of tasks teams need to do for onboarding:
 
 
-
 **Applies to**|**Task**|**Owner**|**Estimated duration**  
 ---------|---------|---------|---------
-All | [Repo creation, provisioning and configuration](../partnerdocumentation/repo-setup.md)| Content owner and VSC | 4 hours
+All | [Repo creation](../partnerdocumentation/repo-creation.md)| Content owner | 1 hour
+All | [Repo provisioning and configuration](../partnerdocumentation/repo-provision.md)| Content owner and VSC | 4 hours
 All | [Ensure content is in GFM Markdown with OP extensions](../partnerdocumentation/GFM-and-extensions.md) | Content owner | Not available       
 All | [Build the TOC](../partnerdocumentation/TOC-management.md) | Content owner | 1 hour and ongoing      
 OA, CMS, Other|  Migrate content from existing repository to GitHub. We do not have a tool to do that. | Content onwer | Not available         

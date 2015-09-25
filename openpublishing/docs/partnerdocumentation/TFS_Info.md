@@ -23,6 +23,6 @@ The MSDN Help Portal can be used for requests by Internal Customers, Partners, a
 5. Click on **Submit**.
 	
 ## SLA ##
-As listed in the MSDNHelp portal.
+As listed in the [http://MSDNHelp](http://MSDNHelp) portal.
 
 

@@ -1,15 +1,5 @@
-# Repository Set Up #
-The following steps show how to setup and provision the repo.
-
-## Repo creation ##
-The first step of open publishing is to create a GIT repository and setup it as an open publishing repo.
-For GIT repo, we currently plan to support both GitHub and Visual Studio Online.
-
-- For GitHub repository setup, follow the [GitHub tutorials](https://help.github.com/articles/set-up-git/). 
-- For Visual Studio Online see (TBD).
-
 ## Repo provisioning ##
-After all the following steps are completed, for all changes in a monitored docset, open publishing will automatically build it and publish the content to MSDN web site.
+After all the following steps are completed, for all changes in a monitored docset, open publishing will automatically build it and publish the content to MSDN, TechNet, or VS.com web site.
 
 
 ### Making the repo an Open Publishing repo ###
