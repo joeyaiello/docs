@@ -54,7 +54,7 @@ Multiple tool chains
 - Git, including GitHub and VSO
 
 Multiple hosting environments
-- MSDN
+- MSDN, TechNet, VisualStudio.com
 - Custom domain support
 
 Content management as a service
@@ -69,4 +69,4 @@ Content management as a service
 
 4. Roadmap
 ----------
-Please look at our [TFS feature request list](https://mseng.visualstudio.com/DefaultCollection/VSChina/_workitems#path=Shared+Queries%2FVSOpenPublishing%2FOpen+Publishing+-+Feature+list&_a=query) for up to date information: 
+Please look at our [TFS feature request list](https://mseng.visualstudio.com/DefaultCollection/VSChina/_workitems#path=Shared+Queries%2FVSOpenPublishing%2FOpen+Publishing+-+Feature+list&_a=query) for up to date information on our upcoming features.
