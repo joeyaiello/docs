@@ -1,18 +1,17 @@
-# Creating the repo #
-It is the content owner responsibility to create the GIT repo and provide the right permissions to the users to access to them. 
+# Creating the English repos #
+It is the content owner responsibility to create the English GIT repos and provide the right permissions to the users to access them. 
+A GIT repo is either GitHub or Visual Studio Online.
 
-For GIT repo, we currently plan to support both GitHub and Visual Studio Online.
+If you are not familiar with GitHub, check out our summary of the [GitHub terminology page](GitHub-terminology.md) for basic terminology used through this documentation.
 
-If you are not familiar with GitHub, check out our summary of the [GitHub terminology](GitHub-terminology.md) for basic terminology used through this documentaiton.
-## Repo creation ##
-
-The first step is to create a GIT repository and setup it up as an open publishing repo.
+The first step is to create a GIT repository and make it either public or private (see next section for information).
 
 - For GitHub repository setup, follow the [GitHub tutorials](https://help.github.com/articles/set-up-git/). 
 - For Visual Studio Online see (TBD).
 
+*Note that you do not have to create localized repos. This is done automatically based on the [localization file configuration](partnerdocumentation/repo-provision.md)*
 
-### GitHub Private vs. public repo ###
+## GitHub Private vs. public repo ##
 
 If you do not want/need external contributions (i.e. external to Microsoft), create a private repo.
 If you want/need external contributions (i.e. external to Microsoft), then you need to create two repos: one public and one private.
@@ -31,10 +30,10 @@ As Open Publishing offers local preview, you can always pull changes from the pu
 
 The following two images show a graphical view of the recommended workflow. Note this is only added here for your reference. Original images were taken from Azure GitHub training from Tyson Nevil.
 
-#### Internal contributions only workflow ####
+### Internal contributions only workflow ###
 ![Internal created content](../images/GitHub_InternalWorkflow.png)
 
-#### External contributions workflow #### 
+### External contributions workflow ### 
 ![Internal created content](../images/GitHub_ExternalWorkflow.png)
 
 ## Set up permissions to the GIT repo
