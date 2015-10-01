@@ -1,22 +1,17 @@
 # Onboarding to Open Publishing #
 
-We can have several cases of onboarding into Open Publishing:
+We can have several cases of onboarding into Open Publishing, depending if a team creates content for the first time or it already exists. Thus, not all the steps might be applicable to your team. No worries, we will work with you on a more detailed schedule with all the steps needed for your project. 
+
+The following is a list of tasks both content owners and VSC need to do for onboarding:
 
 
-- New team -> The team has not created the content yet, they will do in OP.
-- OA -> The team currently has their content in OA.
-- MTPS -> The team is already publishing to MTPS via CAPS, build system, DxStudio, etc.
-- Other-> The team is publishing their content outside MTPS, like "Read the docs". 
-
-The following is a list of tasks both teams and VSC need to do for onboarding:
-
-
-**Applies to**|**Task**|**Owner**|**Estimated duration**  
+**Task**|**Owner**|**Estimated duration**  
 ---------|---------|---------|---------
-All | [Create repos (public and/or private)](partnerdocumentation/repo-creation.md)| Content owner | 1 hour
-All | [Provision the repo(s)](partnerdocumentation/repo-provision.md)| Content owner and VSC | 4 hours
-All | [Define repo and URL structure](partnerdocumentation/URL-management.md) | Content owner | Not available
-All | [Create content in GFM Markdown](partnerdocumentation/GFM.md) | Content owner | Not available       
-All | [Create the TOC](partnerdocumentation/TOC-management.md) | Content owner | 1 hour and ongoing      
-OA, MTPS, Other|  Migrate content from existing repository to GitHub. We do not have a tool to do that. | Content onwer | Not available         
-MTPS, Other | [Pave over MTPS content and redirect content to OP](partnerdocumentation/paveover-MTPS-content.md) | Content owner and VSC | Not available 
+[Create repos (public and/or private)](partnerdocumentation/repo-creation.md)| Content owner | 1 hour
+[Provision the repo(s)](partnerdocumentation/repo-provision.md)| Content owner and VSC | 4 hours
+[Define repo and URL structure](partnerdocumentation/URL-management.md) | Content owner | Not available
+[Create content in GFM Markdown](partnerdocumentation/GFM.md) | Content owner | Not available       
+Migrate content from existing repository to GitHub. We do not have a tool to do that. | Content onwer | Not available
+[Create the Table of Contents](partnerdocumentation/TOC-management.md) | Content owner | 1 hour and ongoing
+Test everything works as expected | Content owner | 8 hours maximum      
+[Pave over MTPS content and redirect content to OP](partnerdocumentation/paveover-MTPS-content.md) | Content owner and VSC | Not available 
