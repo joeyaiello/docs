@@ -1,27 +1,31 @@
 # Connect and TFS information #
- 
-Get help when you're stuck, let us know what you think, or contribute to this documentation. 
+
+## Our team ##
+Open Publishing is being developed by the Visual Studio China team. The team owns the MSDN and Technet platfomrs, as well as CAPS authoring tool, which is the replacement of DxStudio.
+While there are many people behind building the tool, we have 3 main contacts:
+
+- [Xiaokai He](https://me.microsoft.com/#/search/xiaokai%20he) is the feature PM. If there’s any general feature inquiry, design discussion or any issues/bugs which you would expect our engineering team to solve, please contact Sandra and cc Xiaokai.
+- [Sandra Adana](https://me.microsoft.com/#/search/sandra%20aldana) is your onboarding contact. If you have any question about project and onboarding timeline, or once a specific project has decided to use/try our system, please contact Sandra and cc Xiaokai. 
+- [Jackie Zou](https://me.microsoft.com/#/org/jackzo) is the feature PM for localization. Localization is one of the services integrated with OP. For any questions about localization, contact Jackie and cc Xiaokai and Sandra. 
 
 ## Stay up to date ##
-- Join: MSDN Open Publishing Notification (msdnopn@microsoft.com) 
+- Join: MSDN Open Publishing Notification (msdnopn) 
 
 ## Contribute to this site ##
 
 Follow the instruction on our Readme page in [Github](https://github.com/openpublish/docs).
 
-## Report a website issue, want to onboard, or have a question -##
-- Contact [Xiaokai He](https://me.microsoft.com/#/search/xiaokai%20he) and [Sandra Adana](https://me.microsoft.com/#/search/sandra%20aldana)
-
 ## View the Open Publishing Backlog #
 
 Our backlog is available in TFS: [Open Publishing - Feature list](https://mseng.visualstudio.com/web/qr.aspx?puri=vstfs%3a%2f%2f%2fClassification%2fTeamProject%2fdfe297d9-5f61-4d42-b4bb-03f8b8646944&path=VSChina%2fShared+Queries%2fVSOpenPublishing%2fOpen+Publishing+-+Feature+list).
 
-## Report a Feature Requests, Bugs, or Live Site Issues #
+### Report a Feature Requests, Bugs, or Live Site Issues ###
 You can use the TFS above or use the MSDNHelp Portal. 
 
 The MSDN Help Portal can be used for requests by Internal Customers, Partners, and Stakeholders via a form without the need to deal with TFS. All submissions will result in a TFS work item being created in [https://mseng.visualstudio.com/DefaultCollection/VSChina/_workitems](https://mseng.visualstudio.com/DefaultCollection/VSChina/_workitems "Open Publishing TFS") and an email confirmation sent to the submitter and the person the work item is assigned to. The email contains a link to the TFS work item. 
 
 ### To open a Live Site Issue (LSI) ##
+Open a Live Site Issue when you have a problem in the production environment.
 
 1. 	Go to [http://MSDNHelp](http://MSDNHelp).
 2. 	Click on **Customer Impact Issues (aka LSI)**.
@@ -29,6 +33,8 @@ The MSDN Help Portal can be used for requests by Internal Customers, Partners, a
 4. 	Click on **Submit**.
 	 
 ### To open a bug or a feature request ##
+Open a bug if you find a problem when testing Open Publishing in an sandbox or internal environment
+Open a feature request to ask for new functionality that you would like to get implemented.
 	
 1. Go to [http://MSDNHelp](http://MSDNHelp).
 2. Click on **Bugs & Feature requests** link.
