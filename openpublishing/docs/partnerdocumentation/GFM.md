@@ -5,23 +5,26 @@ Open Publishing supports authoring topics in GitHub-flavored Markdown (GFM)
 
 Here are two great tutorials for Markdown and GitHub Flavored Markdown:
 
-	• [Introduction to Markdown by John Gruber](http://daringfireball.net/projects/markdown/syntax)
-	• [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
+- [Introduction to Markdown by John Gruber](http://daringfireball.net/projects/markdown/syntax)
+- [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
 
-You can use any Markdown editor (like [MarkdownPad](http://markdownpad.com/), [Visual Studio Code]
+You can use any Markdown editor you would like to edit Markdown. Some suggestions: [MarkdownPad](http://markdownpad.com/), [Visual Studio Code](https://www.visualstudio.com/en-us/products/code-vs.aspx), [Markdown Mode](https://visualstudiogallery.msdn.microsoft.com/0855e23e-4c4c-4c82-8b39-24ab5c5a7f79). 
 
-(https://www.visualstudio.com/en-us/products/code-vs.aspx), [Markdown Mode]
-
-(https://visualstudiogallery.msdn.microsoft.com/0855e23e-4c4c-4c82-8b39-24ab5c5a7f79)) you like to edit Markdown 
-
-files. Most of them provide live preview functionality so that you can get a simple preview when writing the 
-
-topic.
+files. Most of them provide live preview functionality so that you can get a simple preview when writing the topic.
 
 ## Open Publishing Extensions ##
-We also support some extensions to enrich Markdown functionality:
-	1. File include (other MD files and images)
-	2. Internal code samples
+
+### File Include ###
+
+A Markdown file can reference other files inside its content, such as images, code snippets, and another markdown file that is shared across multiple topics within the docset.
+
+The following items are needed for a file include:
+- Required: Folder path within the repo
+- Optional: Repository Id, which includes: account name, collection name, project name, repository name. The repository of the file is used if it is not specified.
+
+The format of a file include is `![Display text]({folderPath})`
+
+An example for an image is `![Introduction](..\images\Introduction.png)`
 
 ## HTML whitelist ##
 

@@ -1,15 +1,15 @@
-# Creating the English repos #
-It is the content owner responsibility to create the English GIT repos and provide the right permissions to the users to access them. 
+# Creating the GIT repos #
+It is the content owner responsibility to create the  GIT repos and provide the right permissions to the users to access them. 
 A GIT repo is either GitHub or Visual Studio Online.
 
-If you are not familiar with GitHub, check out a summary of [GitHub terminology](GitHub-terminology.md) used in this documentation.
+If you are not familiar with GitHub, check out a summary of [GitHub terminology](GitHub-terminology.md) used in this documentation as well as the [GitHub tutorials](https://github.com/).
 
-The first step is to create a GIT repository and make it either public or private (see next section for information).
-
+The first step is to create a GIT repository:
 - For GitHub repository setup, follow the [GitHub tutorials](https://help.github.com/articles/set-up-git/). 
 - For Visual Studio Online see (TBD).
+ and make it either public or private (see next section for information).
 
-**Note that you do not have to create localized repos. This is done automatically based on the [localization file configuration](repo-provision.md)**.
+**Note that you do not have to create localized repos. This is done automatically based on the [localization file configuration](repo-creation.md)**.
 
 ## GitHub Private vs. public repo ##
 
@@ -47,11 +47,25 @@ For permission to access the content repo, the content owner is responsible for 
 
 Users are always able to publish by pushing a change to a branch, as long as he has the push permission to the repo.
 
+## Creating and setting up localized repos ##
+The localized content will live in a separated repo, connected to the English one. 
 
+For that, you need to modify the file **.localization-config**.This file contains the definition of the localized repos.
+ 
+- **locales** - add the locales you would like to localize in the form of locale-culture set. E.g. "ja-jp", "de-de",...
+- **files** - List all the folders and file types to localize. E.g. "virtualization/**/*.md"
+- **includeDependencies**
+	- Set to true to include in the handoffs the topic dependencies (includes). 
+	- Set to false to only include the Markdown files.
+- **autoPush**
+	- Set to true to automatically check-in the hand back files into the localized repo.
+	- Set to false to create a pull request for the hand back so an admin can approve.
 
+Once this file has been committed, if there is a new language added under locales, the localized repo will be created automatically following the English branches.
 
 ## Next steps ##
 The next steps the team will do is to do the [Repo and provisioning](repo-provision.md). Thus, please send Xiaokai He and Sandra Aldana the following information:
 
 - Repo URLs
+- Repo branches and which one to associate to stage and live. In general, master should be for staging and live should be for publishing to live. See (Publis)[publish.md] topic. 
 - Publishing end-points: MSDN, TechNet, VS.com, other. If other, we need the canonical URL you would like to have for your site.

@@ -1,8 +1,25 @@
 Open Publishing Introduction
 =================================
-Open Publishing (OP) is a set of content services accessible through open standard-based interfaces such as GIT. OP is being developed by the Visual Studio China team. The team owns the MSDN and Technet platfomrs, as well as CAPS authoring tool, which is the replacement of DxStudio.
+Open Publishing (OP) is a modern content authoring and publish workflow based on Markdown and GIT. It is built as a set of content services accessible through open standard-based interfaces such as GIT. 
+ 
+- Easy to author:
+	- Markdown as authoring language
+	- Validate and preview your changes locally just as you write the code
+	
+- Easy to publish:
+	- Push your content to GIT and wait it to be published automatically
+	- Open to multiple endpoint support 
 
-1. Why OPen Publishing
+- Easy to collaborate:
+	- Use GIT (GitHub/VSO) as collaboration interface
+	- Contribute/review/comment using pull request
+
+
+You can see a demoe on Open Publishing [here](\\kenchen2\share\op_demo.mp4)
+
+Open Publishing is being developed by the Visual Studio China team. The team owns the MSDN and Technet platfomrs, as well as other tools related to content authoring and publishing.
+
+1. Why OPen Publishing?
 -------------
 
 Our legacy documentation processes and tools are not designed for services that are easily consumable by a variety of customers with unique and individual needs. This presents itself in several ways:
