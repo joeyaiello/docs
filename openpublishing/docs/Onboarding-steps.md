@@ -7,6 +7,7 @@ The following is a list of tasks both content owners and VSC need to do for onbo
 
 **Task**|**Owner**|**Estimated duration**  
 ---------|---------|---------|---------
+GIT training| VSC | 4 hours
 [Create repos (public and/or private)](partnerdocumentation/repo-creation.md)| Content owner | 1 hour
 [Provision the repo(s)](partnerdocumentation/repo-provision.md)| Content owner and VSC | 4 hours
 [Define repo and URL structure](partnerdocumentation/URL-management.md) | Content owner | Not available
