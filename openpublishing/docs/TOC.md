@@ -22,3 +22,4 @@
 # Open Publishing Design Docs
 ## [Open Publishing Build Design Memo](open_publish_design.md)
 ## [Open Publishing: User Experience and Design](open_publish_uxad.md)
+## [Doc as code info](http://aspnet.github.io/docfx/#/tutorial/docfx_getting_started.md)
