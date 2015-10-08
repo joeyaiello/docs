@@ -19,7 +19,7 @@ You can see a demoe on Open Publishing [here](\\kenchen2\share\op_demo.mp4)
 
 Open Publishing is being developed by the Visual Studio China team. The team owns the MSDN and Technet platfomrs, as well as other tools related to content authoring and publishing.
 
-1. Why OPen Publishing?
+1. Why Open Publishing?
 -------------
 
 Our legacy documentation processes and tools are not designed for services that are easily consumable by a variety of customers with unique and individual needs. This presents itself in several ways:
