@@ -26,15 +26,20 @@ Open Publishing provide a build tool for user to build the markdown file. If use
 ### .openpublish.build.config.json
 This file defines the paths for the different docsets configuration files. There is nothing else to be configured in this file.
 
+### .openpublishing.build.mdproj
+Simple build tool's target project. The project is used to build the markdown content. Also user can customize some steps in it. 
+
+### packages.config
+This file contains the latest version of the build package. By default, the latest version will always be used. However, if you would like to use a previous version (you might not need all the functionality that is available and might make your build slower), then you can specify the version here. The engineering team will maintain a list of all the packages available and main features for each.
+
 ### .openpublish.build.docset.json
 - **toc_file**: Points to the location of the curerent docset file, in general, "TOC.md".
 - **exclude_path_patterns** - specify file extensions of files you would like the build to ignore. Example: [ "*.vsdx" ]
 - **common_metadata** - Metadata supported  so far: 
 	- "ROBOTS": "NOINDEX, NOFOLLOW"
-
-### packages.config
-This file contains the latest version of the build package. By default, the latest version will always be used. However, if you would like to use a previous version (you might not need all the functionality that is available and might make your build slower), then you can specify the version here. The engineering team will maintain a list of all the packages available and main features for each. 
-
+ 
+### TOC.md
+The toc will be shown in the left of the page. 
 
 ## Branches
 In open publishing, we use GIT branches to maintain different copies of the same content. Same topic in different branches will be published to different urls of rendering sites. This could be used in several scenarios:
