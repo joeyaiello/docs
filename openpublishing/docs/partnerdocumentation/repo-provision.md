@@ -1,19 +1,18 @@
 # Provisioning the GIT repos
-After all the following steps are completed, for all changes in a monitored docset, open publishing will automatically build it and publish the content to MSDN, TechNet, or VS.com web site.
+After all the following steps are completed, open publishing will automatically build and publish automatically the updated content to MSDN, TechNet, or VS.com web sites.
 
 ## Making the repo an Open Publishing repo
-After GIT repo is created, some configuration file should be add to make it as an Open Publishing repo. After that, user could do the provision on the [portal](https://op-portal-prod.azurewebsites.net) to make the repository be monitored.
 
 ### Adding the Publishing Service Configuration File
-Open Pulbishing service needs a file [.openpublishing.publish.config.json](repo-config.md#-openpublishing-publish-config-json) under the repository. This file tells how to build and publish the content in the repository.
+Once the GIT repo is created, create  [.openpublishing.publish.config.json](repo-config.md#-openpublishing-publish-config-json) file under the repository. This file tells Open Publishing how to build and publish the content in the repository.
 
-### provision on the portal  ###
+### Provision on the portal
 Once you have the publish configuration file under the repository. You could go to our [portal](https://op-portal-prod.azurewebsites.net) to provision your repo to make it be monitored.
 
 ## Adding the Build Tools Configuration
-Open publishing service provide the entry point of how to build the content. Users can either use their own build tools to build the content or use the build tool provided by us directly.
+Open publishing service provides the entry point of how to build the content. Users can either use their own build tools to build the content or use the build tool provided by Open Publishing directly.
 
-Open publishing currently has two build tools. One has only simple function to build markdown content. The other one is an powerful build tool names DocasCode. It can build not only markdown content but also some specific language source code to generate page.   
+Open publishing currently has two build tools. One has only simple function to build Markdown content. The other one is a powerful build tool names DocasCode. It can build not only markdown content but also some specific language source code to generate a page.   
 
 ### How to use the build tool provided by Open Publishing
 - **Simple Build Tool**
