@@ -1,16 +1,16 @@
 # Provisioning the GIT repos
-After all the following steps are completed, open publishing will automatically build and publish automatically the updated content to MSDN, TechNet, or VS.com web sites.
+After all the following steps are completed, Open Publishing will automatically build and publish the updated content to MSDN, TechNet, or VS.com web sites.
 
 ## Making the repo an Open Publishing repo
 
 ### Adding the Publishing Service Configuration File
-Once the GIT repo is created, create  [.openpublishing.publish.config.json](repo-config.md#-openpublishing-publish-config-json) file under the repository. This file tells Open Publishing how to build and publish the content in the repository.
+Once the GIT repo is created, create  [.openpublishing.publish.config.json](repo-config.md#-openpublishing-publish-config-json) file under the repository. This file tells Open Publishing how to build and publish the content in the repository. A file for reference can be found in this repository.
 
 ### Provision on the portal
 Once you have the publish configuration file under the repository. You could go to our [portal](https://op-portal-prod.azurewebsites.net) to provision your repo to make it be monitored.
 
 ## Adding the Build Tools Configuration
-Open publishing service provides the entry point of how to build the content. Users can either use their own build tools to build the content or use the build tool provided by Open Publishing directly.
+Open Publishing service provides the entry point of how to build the content. Users can either use their own build tools to build the content or use the build tool provided by Open Publishing directly.
 
 Open publishing currently has two build tools. One has only simple function to build Markdown content. The other one is a powerful build tool names DocasCode. It can build not only markdown content but also some specific language source code to generate a page.   
 
