@@ -10,6 +10,9 @@ The first step is to create a GIT repository and make it either public or privat
  
 **Note that you do not have to create localized repos. This is done automatically based on the [localization file configuration](repo-creation.md)**.
 
+## Default branch
+Open Publishing provision is made out of the "live" branch. So once you have created the repos, make sure that you select the "live" branch as the default one. 
+
 ## GitHub Private vs. public repo
 
 If you do not want/need external contributions (i.e. external to Microsoft), you would need create a private repo.
@@ -64,9 +67,10 @@ For that, you need to modify the config file **.localization-config**.This file 
 Once this file has been committed, if there is a new language added under locales, the localized repo will be created automatically after the English branches publish.
 
 ## Next steps
-The next step your team will need to do is found at: [Repo and provisioning](repo-provision.md). 
+The next step we need to do is to [provision the repo](repo-provision.md). VSC will do that for you. Please make sure that:
 Please send Xiaokai He and Sandra Aldana the following information:
 
 - Repo URLs
+- Make sure that the live branch is the default in the repo(s) to provision.
 - Repo branches and which one to associate to stage and live. In general, master should be for staging and live should be for publishing to live. See (Publis)[publish.md] topic. 
 - Publishing end-points: MSDN, TechNet, VS.com, other. If other, we need the canonical URL you would like to have for your site.
