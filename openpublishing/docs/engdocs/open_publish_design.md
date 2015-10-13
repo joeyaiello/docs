@@ -21,7 +21,7 @@ Open publishing build is mainly involved in #1 (**Provisioning**), #4 (**Build**
 
 Here is a diagram of the overall architecture of build service.
 
-![overview](images/overview.png)
+![overview](../images/overview.png)
 
 There are three main services in open publishing:
 

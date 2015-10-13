@@ -8,11 +8,11 @@ The following is a list of tasks both content owners and VSC need to do for onbo
 **Task**|**Owner**|**Estimated duration**  
 ---------|---------|---------|---------
 GIT training| VSC | 4 hours
-[Create repos (public and/or private)](partnerdocumentation/repo-creation.md)| Content owner | 1 hour
-[Provision the repo(s)](partnerdocumentation/repo-provision.md)| Content owner and VSC | 4 hours
-[Define repo and URL structure](partnerdocumentation/URL-management.md) | Content owner | Not available
-[Create content in GFM Markdown](partnerdocumentation/GFM.md) | Content owner | Not available       
+[Create repos (public and/or private)](partnerdocs/repo-creation.md)| Content owner | 1 hour
+[Provision the repo(s)](engdocs/repo-provision.md)| Content owner and VSC | 4 hours
+[Define repo and URL structure](partnerdocs/URL-management.md) | Content owner | Not available
+[Create content in GFM Markdown](partnerdocs/GFM.md) | Content owner | Not available       
 Migrate content from existing repository to GitHub. We do not have a tool to do that. | Content onwer | Not available
-[Create the Table of Contents](partnerdocumentation/TOC-management.md) | Content owner | 1 hour and ongoing
+[Create the Table of Contents](partnerdocs/TOC-management.md) | Content owner | 1 hour and ongoing
 Test everything works as expected | Content owner | 8 hours maximum      
-[Pave over MTPS content and redirect content to OP](partnerdocumentation/paveover-MTPS-content.md) | Content owner and VSC | Not available 
+[Pave over MTPS content and redirect content to OP](partnerdocs/paveover-MTPS-content.md) | Content owner and VSC | Not available 

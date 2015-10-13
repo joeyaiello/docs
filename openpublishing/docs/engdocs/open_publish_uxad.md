@@ -107,19 +107,19 @@ For #2, GitHub and VSO's user experiences are bit different:
 
 In GitHub, after a pull request is created, open publishing will start to build the changes and change the status of pull request to *pending*, meaning that PR should not be merged before build is completed.
 
-![pending](images/pending.png)
+![pending](../images/pending.png)
 
 There is also a "Details" link that will brings you the management portal which shows the progress of the build.
 
 After build completes, if there is errors in the content, open publishing will mark the pull request as error, meaning that PR should not be merged:
 
-![error](images/error.png)
+![error](../images/error.png)
 
 A brief error message will be shown in the comment and "Details" link will brings you to the error report of the build.
 
 After user made some fixes and update PR, open publishing will rebuild changes and mark PR as success if it passes build:
 
-![success](images/success.png)
+![success](../images/success.png)
 
 The "Merge" button now becomes green meaning it's now safe to merge the pull request. And "Details" will bring you to the preview page of the changes.
 
@@ -131,15 +131,15 @@ But it **WILL NOT** block you from merging the pull request, as GitHub doesn't p
 Similar to GitHub, when a pull request is created, an open publishing build will be kicked off.
 On VSO, you will see a build is in progress. At this time, you cannot merge the pull request.
 
-![build in progress](images/build_in_progress.png)
+![build in progress](../images/build_in_progress.png)
 
 After build is completed, if there are errors, pull request cannot be merged.
 
-![build rejected](images/build_rejected.png)
+![build rejected](../images/build_rejected.png)
 
 If there is no error, pull request can be merged.
 
-![build approved](images/build_approved.png)
+![build approved](../images/build_approved.png)
 
 The difference between GitHub and VSO are:
 
@@ -155,7 +155,7 @@ While on VSO, there is no such message and "Details" link will brings you to the
 
 Here is an overall architecture diagram of open publishing system:
 
-![op design](images/op_design.png)
+![op design](../images/op_design.png)
 
 1. Writer commits a change to local GIT repo and push to remote.
 2. GIT server calls build web service to start a build through web hook or VSO build.
