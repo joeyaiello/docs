@@ -41,76 +41,16 @@ The following two images show a graphical view of the recommended workflow. Note
 #### 1.1.2 External contributions workflow
 ![Internal created content](../images/GitHub_ExternalWorkflow.png)
 
- and make it either public or private:
-
-When you are 
- 
-## 2. Initial repo configuration
-
-The following steps assume you are just creating one docset. At the end of the section there are some examples of repo structure if you are creating multiple docsets  
-1. At the root of the repo, create a **.gitignore** file. Edit it and add the following. This will ignore the temporary folders generated when running local builds:
-```
-log/
-xhtml/
-packages/
- ```
- 
-2. Create at least one folder underneath your repo. That would be your docset.
-
-3. Create a TOC.md inside your docset folder.
   
-4. Create a **live** branch. Open Publishing provision is made out of the "live" branch. So once you have created the repos, you need to create a **live** brunch so it can be provisioned. 
-
-### 2.1 Examples of repo structure
-The following is a repo structure with one docset.
-```
-/
-|- .gitignore
-|- README.md
-|- docset/
-|  |- a.md
-|  |- b.md
-|  \- TOC.md
-```
-
-The following is a repo structure with multiple docsets and independent TOCs.
-```
-/
-|- .gitignore
-|- README.md
-|- docset1/
-|  |- a.md
-|  \- b.md
-|  \- TOC1.md
-\- docset2/
-   |- c.md
-   \- d.md
-|  \- TOC2.md
-```
-
-The following is a repo structure with multiple docsets and a single TOC.
-```
-/
-/
-|- .gitignore
-|- README.md
-|  |- a.md
-|  \- b.md
-\- docset2/
-   |- c.md
-   \- d.md
-\- TOC.md
-```
-
-## 3. Creating your repo in the Microsoft GitHub Organization
+## 2. Creating your repo in the Microsoft GitHub Organization
 We recommend that you create the repo in the Microsoft GibHub Organization. That way, you can benefit of all the advantages the organizaiton provides, including enabling Contributaion License Agreement (CLA) automation. See [How to Create a Repo in the Microsoft GitHub Organization](https://opensourcehub.microsoft.com/articles/how-to-create-new-repo-in-microsoft-github-org-self-service) for details.
 
-## 4. Set up permissions to the GIT repo
+## 3. Setting up permissions to the GIT repo
 For permission to access the content repo, the content owner is responsible for leveraging GITHUB permission system. The owner will need to give the appropriate users read or write permission to the repo (private or public). Our recommendation is you create an org and host the repo under that org, then add users to that org to give them write permission. 
 
 Users are always able to publish by pushing a change to a branch, as long as they have the push permission to the repo.
 
-## 5. Creating and setting up localized repos
+## 4. Creating and setting up localized repos
 The localized content will live in a separated repo, connected to the English one. 
 
 For that, you need to modify the config file **.localization-config**.This file contains the definition of the localized repos.
@@ -126,10 +66,5 @@ For that, you need to modify the config file **.localization-config**.This file 
 
 Once this file has been committed, if there is a new language added under locales, the localized repo will be created automatically after the English branches publish.
 
-## 6. Next steps
-The next step we need to do is to [provision the repo](../engdocs/repo-provision.md). VSC will do that for you. Please make sure that:
-Please send Xiaokai He and Sandra Aldana the following information:
-
-- Repo URLs
-- Publishing end-point: MSDN, TechNet, VS.com, other. If other, we need the canonical URL you would like to have for your site.
-- Base URL for your content. This can be the docset name or a different one. This will be appended to the end-point URL. In our case, it is "openpublishing/docs", so the URL is `http://int.msdn.microsoft.com/en-us/openpublishing/docs`.
+## 5. Next: Configure your repo
+(Configure your repo)[repo-creation.md]
