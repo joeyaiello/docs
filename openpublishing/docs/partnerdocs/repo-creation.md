@@ -67,4 +67,4 @@ For that, you need to modify the config file **.localization-config**.This file 
 Once this file has been committed, if there is a new language added under locales, the localized repo will be created automatically after the English branches publish.
 
 ## 5. Next: Configure your repo
-(Configure your repo)[repo-creation.md]
+[Configure your repo](repo-config.md)
